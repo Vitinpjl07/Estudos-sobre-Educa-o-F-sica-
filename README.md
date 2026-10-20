@@ -3,6 +3,8 @@
 Site informativo (PWA) sobre **Jiu-Jitsu** e **Vôlei**, feito com **HTML, CSS e JavaScript puros**,
 sem frameworks ou dependências. Cores principais: **amarelo e azul**.
 
+🌐 **Site publicado:** https://vitinpjl07.github.io/Estudos-sobre-Educa-o-F-sica-/
+
 ## Conteúdo
 
 - **3 finalizações de Jiu-Jitsu**, cada uma com ilustração própria e dicas:
@@ -29,7 +31,21 @@ sem frameworks ou dependências. Cores principais: **amarelo e azul**.
 └── tools/make-icons.mjs    # script que gera os ícones PNG
 ```
 
-## Como rodar
+## Publicação (GitHub Pages)
+
+O repositório publica o site automaticamente no branch `gh-pages` a cada push na `main`
+(workflow `.github/workflows/deploy.yml`).
+
+```bash
+git add .
+git commit -m "nova versão do site"
+git push origin main        # dispara a publicação automática
+```
+
+O site fica disponível em:
+`https://vitinpjl07.github.io/Estudos-sobre-Educa-o-F-sica-/`
+
+## Como rodar localmente
 
 ```bash
 node server.mjs       # ou: npm start
