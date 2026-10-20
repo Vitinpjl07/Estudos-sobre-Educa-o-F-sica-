@@ -1,0 +1,11 @@
+{
+  "name": "esportes-da-escola",
+  "version": "1.0.0",
+  "description": "PWA informativa sobre Jiu-Jitsu e Vôlei (HTML, CSS e JavaScript puros)",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "icons": "node tools/make-icons.mjs"
+  }
+}

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-label="Banner de vôlei">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B4F9E"/>
+      <stop offset="1" stop-color="#062D5C"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="400" fill="url(#bg)"/>
+  <circle cx="200" cy="80" r="170" fill="#ffffff" opacity="0.06"/>
+  <circle cx="1010" cy="330" r="160" fill="#FFD400" opacity="0.08"/>
+  <rect x="0" y="320" width="1200" height="80" fill="#FFD400" opacity="0.9"/>
+  <rect x="0" y="320" width="1200" height="6" fill="#0B4F9E" opacity="0.35"/>
+
+  <!-- rede -->
+  <rect x="820" y="40" width="10" height="280" fill="#ffffff" opacity="0.5"/>
+  <g stroke="#ffffff" stroke-width="1.6" opacity="0.3">
+    <path d="M830 52 H 1200 M 830 88 H 1200 M 830 124 H 1200 M 830 160 H 1200 M 830 196 H 1200 M 830 232 H 1200 M 830 268 H 1200 M 830 304 H 1200"/>
+  </g>
+
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <!-- pernas -->
+    <path d="M610 212 C 604 246, 598 282, 594 310" stroke="#e8b48c" stroke-width="30" fill="none"/>
+    <path d="M660 212 C 666 246, 672 282, 676 310" stroke="#e8b48c" stroke-width="30" fill="none"/>
+    <!-- sapatilhas -->
+    <path d="M576 314 L 612 314" stroke="#0B4F9E" stroke-width="16" fill="none"/>
+    <path d="M662 314 L 696 314" stroke="#0B4F9E" stroke-width="16" fill="none"/>
+    <!-- uniforme -->
+    <path d="M635 122 L 635 200" stroke="#FFD400" stroke-width="94" fill="none"/>
+    <path d="M593 202 L 677 202" stroke="#0B4F9E" stroke-width="24" fill="none"/>
+    <!-- braços -->
+    <path d="M600 138 C 584 118, 570 104, 558 94" stroke="#e8b48c" stroke-width="22" fill="none"/>
+    <circle cx="550" cy="88" r="16" fill="#e8b48c"/>
+    <path d="M668 138 C 688 118, 704 102, 716 92" stroke="#e8b48c" stroke-width="22" fill="none"/>
+    <circle cx="724" cy="86" r="17" fill="#e8b48c"/>
+    <!-- cabeça -->
+    <circle cx="633" cy="82" r="42" fill="#3b2b22"/>
+    <path d="M597 70 a 42 42 0 0 1 72 -4" stroke="#0B4F9E" stroke-width="14" fill="none"/>
+  </g>
+
+  <!-- bola -->
+  <circle cx="800" cy="92" r="48" fill="#ffffff"/>
+  <path d="M800 44 a 48 48 0 0 0 -41 26 l 22 33 a 48 48 0 0 0 37 14 z" fill="#FFD400"/>
+  <path d="M800 44 a 48 48 0 0 1 41 26 l -31 22 a 48 48 0 0 0 -29 -9 z" fill="#0B4F9E"/>
+
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <rect x="60" y="140" width="290" height="74" rx="37" fill="#FFD400"/>
+    <text x="205" y="190" text-anchor="middle" font-size="40" font-weight="800" fill="#062D5C">VÔLEI</text>
+  </g>
+</svg>

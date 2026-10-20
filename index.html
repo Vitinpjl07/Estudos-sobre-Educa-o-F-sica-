@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<title>Esportes da Escola — Jiu-Jitsu e Vôlei</title>
+<meta name="description" content="PWA informativa sobre Jiu-Jitsu e Vôlei: 3 finalizações de jiu-jitsu (armbar, triângulo e kimura) e 3 fundamentos do vôlei (saque, recepção e ataque)." />
+<meta name="theme-color" content="#0B4F9E" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<link rel="manifest" href="manifest.webmanifest" />
+<link rel="icon" href="favicon.png" />
+<link rel="apple-touch-icon" href="icons/icon-192.png" />
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+<a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+<header class="topo" id="topo">
+  <div class="container topo__interno">
+    <a class="marca" href="#topo">
+      <img src="icons/icon-192.png" alt="" width="42" height="42" />
+      <span>Esportes<strong>da Escola</strong></span>
+    </a>
+
+    <nav class="nav" id="nav" aria-label="Navegação principal">
+      <a href="#jiu-jitsu">Jiu-Jitsu</a>
+      <a href="#volei">Vôlei</a>
+      <a href="#dicas">Dicas</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+
+    <button class="btn btn--install" id="btnInstall" hidden>
+      <svg viewBox="0 0 24 24" aria-hidden="true" width="18" height="18"><path d="M12 3v10m0 0 4-4m-4 4-4-4M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      Instalar
+    </button>
+
+    <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="nav" aria-label="Abrir menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="conteudo">
+
+  <!-- HERO -->
+  <section class="hero">
+    <img class="hero__img" src="img/hero.svg" alt="" aria-hidden="true" />
+    <div class="container hero__conteudo">
+      <p class="selo">Educação Física</p>
+      <h1>Jiu-Jitsu <span class="cor-amarelo">&amp;</span> Vôlei</h1>
+      <p class="hero__texto">
+        Um guia rápido e visual sobre as duas modalidade: <strong>três finalizações</strong> do
+        jiu-jitsu e <strong>três fundamentos</strong> do vôlei, com explicações, dicas de
+        execução e ilustrações de cada técnica.
+      </p>
+      <div class="hero__acoes">
+        <a class="btn btn--amarelo" href="#jiu-jitsu">Ver finalizações</a>
+        <a class="btn btn--contorno" href="#volei">Ver fundamentos</a>
+      </div>
+      <ul class="hero__stats">
+        <li><strong>3</strong><span>finalizações</span></li>
+        <li><strong>3</strong><span>fundamentos</span></li>
+        <li><strong>Offline</strong><span>funciona sem internet</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- JIU-JITSU -->
+  <section class="secao secao--jiu" id="jiu-jitsu">
+    <div class="container">
+      <img class="banner" src="img/jiu-banner.svg" alt="Ilustração de atleta de jiu-jitsu" />
+      <header class="secao__cabecalho">
+        <p class="selo selo--escuro">Arte marcial</p>
+        <h2>Três finalizações do <span class="cor-amarelo">Jiu-Jitsu</span></h2>
+        <p>
+          Finalizações são as técnicas usadas para submissão do adversário. No BJJ elas provam
+          controle, postura e domínio técnico. As três abaixo são as mais emblemáticas e
+          exigem posicionamento, controle de distância e calma.
+        </p>
+      </header>
+
+      <div class="grade grade--3">
+        <article class="cartao">
+          <figure class="cartao__figura">
+            <img src="img/jiu-armbar.svg" alt="Ilustração da finalização armbar, com o braço do oponente esticado entre as pernas do atacante" loading="lazy" />
+            <figcaption>1. Armbar</figcaption>
+          </figure>
+          <div class="cartao__corpo">
+            <h3>Armbar — finalização de braço</h3>
+            <p>
+              O atacante prende a perna do oponente entre suas, estica o braço e aplica pressão na
+              articulação com o quadril e as pernas. É uma das finalizações mais rápidas e
+              funciona bem a partir da <strong>guarda fechada</strong> ou da posição de norte.
+            </p>
+            <ul class="marcadores">
+              <li><strong>Posição:</strong> pernas "escadas" no lado do braço preso.</li>
+              <li><strong>Chave:</strong> joelho e quadril alinhados com o ombro do oponente.</li>
+              <li><strong>Atenção:</strong> mantenha a cabeça próxima ao joelho para não ser reversal.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="cartao">
+          <figure class="cartao__figura">
+            <img src="img/jiu-triangulo.svg" alt="Ilustração da finalização triângulo, com as pernas do atacante formando um triângulo sobre o pescoço do oponente" loading="lazy" />
+            <figcaption>2. Triângulo</figcaption>
+          </figure>
+          <div class="cartao__corpo">
+            <h3>Triângulo — estrangulamento</h3>
+            <p>
+              Uma finalização de estrangulamento em que a perna do atacante passa pelo pescoço e
+              pelo braço do oponente. É uma <strong>finalização por estrangulamento</strong> — o nocaut
+              vem da falta de oxigênio, então ela deve ser solta assim que o oponente bater.
+            </p>
+            <ul class="marcadores">
+              <li><strong>Posição:</strong> ombro no trapézio, perna na nuca.</li>
+              <li><strong>Chave:</strong> puxe o braço para dentro, girando o quadril.</li>
+              <li><strong>Atenção:</strong>Triangle exige controle da postura; perder a base vira reverse.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="cartao">
+          <figure class="cartao__figura">
+            <img src="img/jiu-kimura.svg" alt="Ilustração da finalização kimura, com o braço do oponente torcido entre as pernas do atacante" loading="lazy" />
+            <figcaption>3. Kimura</figcaption>
+          </figure>
+          <div class="cartao__corpo">
+            <h3>Kimura — chave de braço</h3>
+            <p>
+              Também chamada de <em>ude-garami</em>, a kimura torce o braço do oponente para
+              trás. É uma finalização de controle articular, muito usada para passar de
+              posição e <strong>não exige que o adversário vire as costas</strong>.
+            </p>
+            <ul class="marcadores">
+              <li><strong>Posição:</strong> ombro por trás e quadril colado nas costas.</li>
+              <li><strong>Chave:</strong> puxe o cotovelo para a linha da coluna.</li>
+              <li><strong>Bônus:</strong> serve para travar o adversário e trocar de posição.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- VÔLEI -->
+  <section class="secao secao--volei" id="volei">
+    <div class="container">
+      <img class="banner" src="img/volei-banner.svg" alt="Ilustração de atleta de vôlei em quadra" />
+      <header class="secao__cabecalho">
+        <p class="selo selo--escuro">Esporte de quadra</p>
+        <h2>Três fundamentos do <span class="cor-amarelo">Vôlei</span></h2>
+        <p>
+          O vôlei é um esporte que se constrói sobre três gestos básicos: colocar a bola em jogo
+          com o <strong>saque</strong>, recebê-la com <strong>controle</strong> e atacá-la com
+          <strong>força e direção</strong>. Sem um deles, o time não fecha o ponto.
+        </p>
+      </header>
+
+      <div class="grade grade--3">
+        <article class="cartao">
+          <figure class="cartao__figura">
+            <img src="img/volei-saque.svg" alt="Ilustração de um atleta executando o saque de vôlei, com a bola no ar" loading="lazy" />
+            <figcaption>1. Saque</figcaption>
+          </figure>
+          <div class="cartao__corpo">
+            <h3>Saque — iniciar o ponto</h3>
+            <p>
+              Todo ataque começa com o saque. Ele pode ser <strong>flutuado</strong> (mais seguro)
+              ou <strong>viagem/tabaque</strong> (mais poderoso). O objetivo é passar a rede e
+             não deixar o receptor dominar a bola.
+            </p>
+            <ul class="marcadores">
+              <li><strong>Posição:</strong> corpo afastado da rede, bola na mão livre.</li>
+              <li><strong>Execução:</strong> lance uniforme, mirando o fundo da quadra ou o ombro do receptor.</li>
+              <li><strong>Dica:</strong> varie o ponto de destino — saque vira arma tática.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="cartao">
+          <figure class="cartao__figura">
+            <img src="img/volei-passe.svg" alt="Ilustração de uma atleta fazendo o passe de antebraço no vôlei" loading="lazy" />
+            <figcaption>2. Recepção / Passe</figcaption>
+          </figure>
+          <div class="cartao__corpo">
+            <h3>Recepção — o fundamental do fundamental</h3>
+            <p>
+              O passe de antebraço é a base de toda a linha de ataque. É o gesto que tira a bola
+              do saque e a entrega ao levantador. Sem <strong>passe limpo</strong>, não há
+              combinação, o levantador (Setter) e o ataque.
+            </p>
+            <ul class="marcadores">
+              <li><strong>Posição:</strong> base aberta, joelhos flexionados, peso na ponta dos pés.</li>
+              <li><strong>Contato:</strong> "chapa" das duas mãos, punhos unidos e braços retos.</li>
+              <li><strong>Alvo:</strong> a região entre a linha de fundo e o posto 3.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="cartao">
+          <figure class="cartao__figura">
+            <img src="img/volei-ataque.svg" alt="Ilustração de um atleta saltando para dar a cortada no vôlei" loading="lazy" />
+            <figcaption>3. Ataque</figcaption>
+          </figure>
+          <div class="cartao__corpo">
+            <h3>Ataque — finalizar o ponto</h3>
+            <p>
+              A <strong>cortada (spike)</strong> é o golpe mais forte: usa a mão aberta e o
+              movimento de braço por cima da cabeça. Variantes como a <em>tocada</em>,
+              a <em>carreta</em> e o <em>contra-ataque</em> mudam o ângulo e a velocidade.
+            </p>
+            <ul class="marcadores">
+              <li><strong>Posição:</strong> salto com dois tempos, braço alinhado com o ombro.</li>
+              <li><strong>Execução:</strong> contacte a bola no ponto mais alto possível.</li>
+              <li><strong>Dica:</strong> ataque a linha ou o ponto de transição do bloqueio.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPARATIVO -->
+  <section class="secao secao--dicas" id="dicas">
+    <div class="container">
+      <header class="secao__cabecalho secao__cabecalho--claro">
+        <p class="selo selo--escuro">Compare</p>
+        <h2>O que elas têm em comum</h2>
+        <p>Jiu-jitsu e vôlei parecem distantes, mas seguem a mesma lógica de equipe.</p>
+      </header>
+
+      <div class="comparativo">
+        <div class="comparativo__col comparativo__col--azul">
+          <h3><span class="marca-icone" aria-hidden="true"></span> Jiu-Jitsu</h3>
+          <ul>
+            <li>Treino de posição: onde estou e onde o adversário está.</li>
+            <li>Controle antes de finalizar — a técnica vem da base.</li>
+            <li>Resistência e controle da respiração.</li>
+            <li>Treino com parceiro e Adjustment constante.</li>
+          </ul>
+        </div>
+        <div class="comparativo__col comparativo__col--amarelo">
+          <h3><span class="marca-icone" aria-hidden="true"></span> Vôlei</h3>
+          <ul>
+            <li>Leitura rápida: o saque, o passe e o ataque em sequência.</li>
+            <li>Comunicação e confiança no time.</li>
+            <li>Movimento de pernas e capacidade explosiva.</li>
+            <li>Treino com metas curtas: ponto a ponto.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="dicas">
+        <article class="dica">
+          <h3>Como treinar com segurança</h3>
+          <p>Alongar antes, aquecer o ombro e o quadril, e respeitar o tempo da pessoa ao lado. Em Submission, a batida na coxa encerra a finalização.</p>
+        </article>
+        <article class="dica">
+          <h3>Equipamento básico</h3>
+          <p>Para o jiu-jitsu: kimono, faixa e proteção de joelho. Para o vôlei: sapatilha, joelheira e uma boa quadra.</p>
+        </article>
+        <article class="dica">
+          <h3>Hidratação e aquecimento</h3>
+          <p>São esportes de esforço repetido: beba água, alongue o posterior da coxa e o ombro e respeite o descanso entre as séries.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="secao secao--faq" id="faq">
+    <div class="container">
+      <header class="secao__cabecalho">
+        <p class="selo selo--escuro">Dúvidas frequentes</p>
+        <h2>Perguntas rápidas</h2>
+      </header>
+
+      <div class="faq">
+        <details>
+          <summary>Preciso de equipamento para treinar?</summary>
+          <p>Para o jiu-jitsu, um kimono de treino e faixa já resolvem. Para o vôlei, a principal exigência é a quadra: o sofá pode substituir o contato com o solo em treinamentos básicos.</p>
+        </details>
+        <details>
+          <summary>Qual a idade ideal para começar?</summary>
+          <p>As duas modalidade podem ser iniciadas na infância, com aulas de fundamentação e brincadeiras simplificadas. O jiu-jitsu kids trabalha coordenação e respeito; o vôlei kids trabalha recepção e cooperação em equipe.</p>
+        </details>
+        <details>
+          <summary>Posso praticá-los no mesmo dia?</summary>
+          <p>Sim. Uma boa divisão é treinar o jiu-jitsu pela manhã e o vôlei à tarde, ou vice-versa. Procure intercalar os treinos para evitar sobrecarga nos ombros e joelhos.</p>
+        </details>
+        <details>
+          <summary>Este site funciona sem internet?</summary>
+          <p>Sim! Ele é um PWA: após a primeira visita, o conteúdo fica salvo no aparelho e abre offline, inclusive as imagens.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section class="faixa">
+    <div class="container faixa__conteudo">
+      <h2>Instale o app na tela inicial</h2>
+      <p>Funciona offline, é rápido e leva você direto para as técnicas.</p>
+      <button class="btn btn--amarelo btn--grande" id="btnInstall2" hidden>Instalar aplicativo</button>
+    </div>
+  </section>
+</main>
+
+<footer class="rodape">
+  <div class="container rodape__conteudo">
+    <p><strong>Esportes da Escola</strong> — Jiu-Jitsu &amp; Vôlei</p>
+    <p>Conteúdo educativo de Educação Física. Imagens ilustrativas criadas para este projeto.</p>
+    <p class="rodape__offline" id="statusOffline" aria-live="polite"></p>
+  </div>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="js/app.js" defer></script>
+</body>
+</html>

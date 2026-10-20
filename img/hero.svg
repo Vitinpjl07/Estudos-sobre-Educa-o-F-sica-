@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-label="Atletas de jiu-jitsu e vôlei">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#062D5C"/>
+      <stop offset="1" stop-color="#0B4F9E"/>
+    </linearGradient>
+    <linearGradient id="mat" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFD400"/>
+      <stop offset="1" stop-color="#E8A200"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FFD400" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#FFD400" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="700" fill="url(#sky)"/>
+  <circle cx="900" cy="280" r="420" fill="url(#glow)"/>
+  <circle cx="140" cy="120" r="150" fill="#ffffff" opacity="0.05"/>
+  <rect x="0" y="520" width="1200" height="180" fill="url(#mat)"/>
+  <rect x="0" y="520" width="1200" height="8" fill="#0B4F9E" opacity="0.4"/>
+  <path d="M120 620 H 1080" stroke="#0B4F9E" stroke-width="8" opacity="0.3"/>
+
+  <!-- ===== JIU-JITSU ===== -->
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <path d="M792 300 C 786 340, 780 372, 776 402" stroke="#f4f6fb" stroke-width="30" fill="none"/>
+    <path d="M836 300 C 842 340, 848 372, 852 402" stroke="#f4f6fb" stroke-width="30" fill="none"/>
+    <path d="M760 406 L 790 406" stroke="#0B4F9E" stroke-width="15" fill="none"/>
+    <path d="M838 406 L 868 406" stroke="#0B4F9E" stroke-width="15" fill="none"/>
+    <path d="M814 240 L 814 298" stroke="#ffffff" stroke-width="78" fill="none"/>
+    <path d="M782 288 L 846 288" stroke="#0B4F9E" stroke-width="18" fill="none"/>
+    <path d="M788 250 C 772 232, 762 218, 754 208" stroke="#ffffff" stroke-width="24" fill="none"/>
+    <circle cx="748" cy="202" r="15" fill="#e8b48c"/>
+    <path d="M840 250 C 856 232, 866 218, 874 208" stroke="#ffffff" stroke-width="24" fill="none"/>
+    <circle cx="880" cy="202" r="15" fill="#e8b48c"/>
+    <circle cx="814" cy="204" r="36" fill="#3b2b22"/>
+    <path d="M782 194 a 36 36 0 0 1 64 -4" stroke="#FFD400" stroke-width="13" fill="none"/>
+  </g>
+
+  <!-- ===== VÔLEI ===== -->
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <path d="M1010 340 C 1004 372, 1000 404, 998 432" stroke="#e8b48c" stroke-width="26" fill="none"/>
+    <path d="M1046 340 C 1052 372, 1058 404, 1062 432" stroke="#e8b48c" stroke-width="26" fill="none"/>
+    <path d="M984 438 L 1012 438" stroke="#0B4F9E" stroke-width="14" fill="none"/>
+    <path d="M1048 438 L 1076 438" stroke="#0B4F9E" stroke-width="14" fill="none"/>
+    <path d="M1028 260 L 1028 336" stroke="#FFD400" stroke-width="78" fill="none"/>
+    <path d="M995 340 L 1061 340" stroke="#0B4F9E" stroke-width="20" fill="none"/>
+    <path d="M1002 274 C 990 252, 980 236, 972 224" stroke="#e8b48c" stroke-width="20" fill="none"/>
+    <circle cx="966" cy="218" r="15" fill="#e8b48c"/>
+    <path d="M1056 270 C 1072 250, 1084 232, 1092 218" stroke="#e8b48c" stroke-width="20" fill="none"/>
+    <circle cx="1098" cy="212" r="16" fill="#e8b48c"/>
+    <circle cx="1024" cy="222" r="36" fill="#3b2b22"/>
+  </g>
+
+  <!-- bola de vôlei -->
+  <circle cx="1130" cy="140" r="56" fill="#ffffff"/>
+  <path d="M1130 84 a 56 56 0 0 0 -48 30 l 26 38 a 56 56 0 0 0 43 16 z" fill="#FFD400"/>
+  <path d="M1130 84 a 56 56 0 0 1 48 30 l -36 26 a 56 56 0 0 0 -33 -10 z" fill="#0B4F9E"/>
+</svg>

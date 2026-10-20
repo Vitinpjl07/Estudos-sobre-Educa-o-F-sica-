@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Fundamento de recepção (passe) no vôlei">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B4F9E"/>
+      <stop offset="1" stop-color="#062D5C"/>
+    </linearGradient>
+    <linearGradient id="court" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFD400"/>
+      <stop offset="1" stop-color="#E8A200"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="400" fill="url(#bg)"/><circle cx="120" cy="70" r="110" fill="#ffffff" opacity="0.05"/>
+  <rect x="0" y="280" width="640" height="120" fill="url(#court)"/>
+  <rect x="0" y="280" width="640" height="6" fill="#0B4F9E" opacity="0.4"/>
+  <rect x="40" y="322" width="560" height="8" rx="4" fill="#0B4F9E" opacity="0.35"/>
+
+  <!-- bola --><circle cx="486" cy="118" r="44" fill="#ffffff"/>
+  <path d="M486 74 a 44 44 0 0 0 -38 24 l 21 31 a 44 44 0 0 0 34 13 z" fill="#FFD400"/>
+  <path d="M486 74 a 44 44 0 0 1 38 24 l -28 21 a 44 44 0 0 0 -26 -8 z" fill="#0B4F9E"/>
+  <path d="M469 129 l -21 -31 M 496 119 l 28 -21 M 471 142 l 34 -13" stroke="#0B4F9E" stroke-width="4" fill="none" opacity="0.65"/>
+
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <!-- pernas em posição de base -->
+    <path d="M258 268 L 206 324" fill="none" stroke="#07203d" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M258 268 L 206 324" stroke="#e8b48c" stroke-width="27" fill="none"/>
+    <path d="M305 268 L 356 324" fill="none" stroke="#07203d" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M305 268 L 356 324" stroke="#e8b48c" stroke-width="27" fill="none"/>
+    <path d="M194 332 L 218 332" fill="none" stroke="#07203d" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M194 332 L 218 332" stroke="#0B4F9E" stroke-width="15" fill="none"/>
+    <path d="M344 332 L 368 332" fill="none" stroke="#07203d" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M344 332 L 368 332" stroke="#0B4F9E" stroke-width="15" fill="none"/>
+    <!-- tronco -->
+    <path d="M280 185 L 282 268" fill="none" stroke="#07203d" stroke-width="69" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M280 185 L 282 268" stroke="#ffffff" stroke-width="62" fill="none"/>
+    <!-- braços unidos formando a "chapa" -->
+    <path d="M262 210 L 360 200" fill="none" stroke="#07203d" stroke-width="37" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M262 210 L 360 200" stroke="#e8b48c" stroke-width="30" fill="none"/>
+    <path d="M262 238 L 358 228" fill="none" stroke="#07203d" stroke-width="35" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M262 238 L 358 228" stroke="#e8b48c" stroke-width="28" fill="none"/><circle cx="372" cy="208" r="17" fill="#e8b48c"/>
+    <!-- cabeça --><circle cx="276" cy="162" r="30" fill="none" stroke="#07203d" stroke-width="7"/><circle cx="276" cy="162" r="30" fill="#3b2b22"/>
+  </g>
+
+  <!-- trajetória da bola -->
+  <path d="M448 148 C 424 172, 398 190, 382 200" fill="none" stroke="#FFD400" stroke-width="6" stroke-dasharray="12 10" stroke-linecap="round"/>
+  <path d="M394 190 l -16 8 l 12 12" fill="none" stroke="#07203d" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M394 190 l -16 8 l 12 12" fill="none" stroke="#FFD400" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <rect x="24" y="24" width="188" height="46" rx="23" fill="#FFD400"/>
+    <text x="118" y="55" text-anchor="middle" font-size="21" font-weight="700" fill="#062D5C">RECEPCAO</text>
+  </g>
+</svg>

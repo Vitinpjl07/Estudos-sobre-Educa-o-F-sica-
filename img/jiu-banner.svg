@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-label="Banner de jiu-jitsu">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B4F9E"/>
+      <stop offset="1" stop-color="#062D5C"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="400" fill="url(#bg)"/>
+  <circle cx="980" cy="90" r="180" fill="#ffffff" opacity="0.06"/>
+  <circle cx="180" cy="340" r="150" fill="#FFD400" opacity="0.08"/>
+  <rect x="0" y="320" width="1200" height="80" fill="#FFD400" opacity="0.9"/>
+  <rect x="0" y="320" width="1200" height="6" fill="#0B4F9E" opacity="0.35"/>
+
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <!-- pernas -->
+    <path d="M612 198 C 606 240, 598 280, 594 312" stroke="#f4f6fb" stroke-width="34" fill="none"/>
+    <path d="M662 198 C 668 240, 676 280, 680 312" stroke="#f4f6fb" stroke-width="34" fill="none"/>
+    <!-- sapatilhas / pés -->
+    <path d="M576 316 L 612 316" stroke="#0B4F9E" stroke-width="16" fill="none"/>
+    <path d="M664 316 L 700 316" stroke="#0B4F9E" stroke-width="16" fill="none"/>
+    <!-- tronco (kimono) -->
+    <path d="M637 128 L 637 196" stroke="#ffffff" stroke-width="92" fill="none"/>
+    <!-- cinto -->
+    <path d="M597 186 L 677 186" stroke="#0B4F9E" stroke-width="20" fill="none"/>
+    <!-- braços em guarda -->
+    <path d="M604 140 C 586 120, 572 106, 560 96" stroke="#ffffff" stroke-width="26" fill="none"/>
+    <circle cx="552" cy="90" r="16" fill="#e8b48c"/>
+    <path d="M670 140 C 688 120, 702 106, 714 96" stroke="#ffffff" stroke-width="26" fill="none"/>
+    <circle cx="722" cy="90" r="16" fill="#e8b48c"/>
+    <!-- cabeça -->
+    <circle cx="637" cy="86" r="42" fill="#3b2b22"/>
+    <!-- faixa amarela na cabeça -->
+    <path d="M599 74 a 42 42 0 0 1 76 -4" stroke="#FFD400" stroke-width="15" fill="none"/>
+  </g>
+
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <rect x="60" y="140" width="330" height="74" rx="37" fill="#FFD400"/>
+    <text x="225" y="190" text-anchor="middle" font-size="40" font-weight="800" fill="#062D5C">JIU-JITSU</text>
+  </g>
+</svg>

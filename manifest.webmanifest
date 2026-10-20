@@ -1,0 +1,48 @@
+{
+  "name": "Esportes da Escola — Jiu-Jitsu & Vôlei",
+  "short_name": "Esportes",
+  "description": "Guia visual e informativo sobre jiu-jitsu e vôlei: 3 finalizações e 3 fundamentos com imagens e dicas.",
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#062D5C",
+  "theme_color": "#0B4F9E",
+  "categories": ["education", "sports", "lifestyle"],
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Finalizacoes de Jiu-Jitsu",
+      "short_name": "Jiu-Jitsu",
+      "url": "./index.html#jiu-jitsu",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "Fundamentos do Volei",
+      "short_name": "Volei",
+      "url": "./index.html#volei",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    }
+  ]
+}

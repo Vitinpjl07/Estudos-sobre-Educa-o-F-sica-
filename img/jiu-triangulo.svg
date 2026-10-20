@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Finalização triângulo no Jiu-Jitsu">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B4F9E"/>
+      <stop offset="1" stop-color="#062D5C"/>
+    </linearGradient>
+    <linearGradient id="mat" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFD400"/>
+      <stop offset="1" stop-color="#E8A200"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="400" fill="url(#bg)"/>
+  <circle cx="90" cy="80" r="110" fill="#ffffff" opacity="0.05"/>
+  <circle cx="560" cy="330" r="130" fill="#FFD400" opacity="0.07"/>
+  <rect x="0" y="300" width="640" height="100" fill="url(#mat)"/>
+  <rect x="0" y="300" width="640" height="7" fill="#0B4F9E" opacity="0.35"/>
+
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <!-- ===== UKEMI (kimono azul) deitado de costas, à direita ===== -->
+    <circle cx="372" cy="256" r="28.0" fill="none" stroke="#0a2f5c" stroke-width="6"/><circle cx="372" cy="256" r="28" fill="#e8b48c"/>
+    <path d="M400 260 C 448 268, 496 276, 540 278" stroke="#2f7fd4" stroke-width="64" fill="none"/>
+    <!-- braço do ukemi -->
+    <path d="M532 278 C 562 272, 582 258, 594 240" stroke="#e8b48c" stroke-width="21" fill="none"/>
+    <!-- perna do ukemi -->
+    <path d="M398 296 C 436 312, 480 316, 518 306" stroke="#2f7fd4" stroke-width="30" fill="none"/>
+
+    <!-- ===== ATACANTE (kimono branco) deitado, à esquerda ===== -->
+    <circle cx="124" cy="212" r="27.0" fill="none" stroke="#0a2f5c" stroke-width="6"/><circle cx="124" cy="212" r="27" fill="#3b2b22"/>
+    <path d="M151 222 C 182 242, 202 260, 214 278" stroke="#ffffff" stroke-width="64" fill="none"/>
+    <!-- perna que passa pelo pescoço do ukemi -->
+    <path d="M210 276 C 236 254, 266 228, 298 206 C 318 193, 336 196, 342 214" stroke="#f4f6fb" stroke-width="31" fill="none"/>
+    <!-- pé travado na axila do ukemi -->
+    <circle cx="346" cy="226" r="14.0" fill="none" stroke="#0a2f5c" stroke-width="6"/><circle cx="346" cy="226" r="14" fill="#e8b48c"/>
+    <!-- perna de apoio -->
+    <path d="M212 284 C 242 300, 278 306, 312 304" stroke="#e8eefc" stroke-width="27" fill="none"/>
+    <!-- braço de controle -->
+    <path d="M166 238 C 202 256, 232 266, 260 270" stroke="#ffffff" stroke-width="19" fill="none"/>
+  </g>
+
+  <!-- marcação do triângulo e do pescoço preso -->
+  <path d="M214 278 L 300 204 L 348 226 Z" fill="none" stroke="#FFD400" stroke-width="6" stroke-dasharray="14 11" stroke-linecap="round" stroke-linejoin="round" opacity="0.95"/>
+  <circle cx="318" cy="228" r="19" fill="none" stroke="#FFD400" stroke-width="5" stroke-dasharray="8 7"/>
+
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <rect x="24" y="24" width="212" height="46" rx="23" fill="#FFD400"/>
+    <text x="130" y="55" text-anchor="middle" font-size="21" font-weight="700" fill="#062D5C">TRIANGULO</text>
+  </g>
+</svg>

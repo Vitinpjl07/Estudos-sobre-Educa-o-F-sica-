@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Fundamento de saque no vôlei">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B4F9E"/>
+      <stop offset="1" stop-color="#062D5C"/>
+    </linearGradient>
+    <linearGradient id="court" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFD400"/>
+      <stop offset="1" stop-color="#E8A200"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="400" fill="url(#bg)"/><circle cx="520" cy="60" r="120" fill="#ffffff" opacity="0.05"/>
+  <rect x="0" y="250" width="640" height="150" fill="url(#court)"/>
+  <rect x="0" y="250" width="640" height="6" fill="#0B4F9E" opacity="0.4"/>
+  <rect x="60" y="305" width="520" height="8" rx="4" fill="#0B4F9E" opacity="0.35"/>
+
+  <!-- bola de vôlei --><circle cx="452" cy="120" r="48" fill="#ffffff"/>
+  <path d="M452 72 a 48 48 0 0 0 -41 26 l 22 33 a 48 48 0 0 0 37 14 z" fill="#FFD400"/>
+  <path d="M452 72 a 48 48 0 0 1 41 26 l -31 22 a 48 48 0 0 0 -29 -9 z" fill="#0B4F9E"/>
+  <path d="M433 131 l -22 -33 M 462 120 l 31 -22 M 435 145 l 37 -14" stroke="#0B4F9E" stroke-width="4" fill="none" opacity="0.65"/>
+
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <!-- pernas -->
+    <path d="M255 250 L 240 320" fill="none" stroke="#07203d" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M255 250 L 240 320" stroke="#e8b48c" stroke-width="27" fill="none"/>
+    <path d="M295 250 L 318 320" fill="none" stroke="#07203d" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M295 250 L 318 320" stroke="#e8b48c" stroke-width="27" fill="none"/>
+    <path d="M228 330 L 252 330" fill="none" stroke="#07203d" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M228 330 L 252 330" stroke="#0B4F9E" stroke-width="15" fill="none"/>
+    <path d="M306 330 L 330 330" fill="none" stroke="#07203d" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M306 330 L 330 330" stroke="#0B4F9E" stroke-width="15" fill="none"/>
+    <!-- tronco -->
+    <path d="M270 190 L 275 250" fill="none" stroke="#07203d" stroke-width="65" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M270 190 L 275 250" stroke="#FFD400" stroke-width="58" fill="none"/>
+    <!-- braço de apoio -->
+    <path d="M268 198 L 232 160" fill="none" stroke="#07203d" stroke-width="27" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M268 198 L 232 160" stroke="#e8b48c" stroke-width="20" fill="none"/><circle cx="228" cy="154" r="13" fill="#e8b48c"/>
+    <!-- braço de saque -->
+    <path d="M280 194 L 348 140" fill="none" stroke="#07203d" stroke-width="28" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M280 194 L 348 140" stroke="#e8b48c" stroke-width="21" fill="none"/><circle cx="356" cy="133" r="15" fill="#e8b48c"/>
+    <!-- cabeça --><circle cx="266" cy="168" r="30" fill="none" stroke="#07203d" stroke-width="7"/><circle cx="266" cy="168" r="30" fill="#3b2b22"/>
+    <!-- faixa do cabelo -->
+    <path d="M238 158 a 30 30 0 0 1 52 -12" fill="none" stroke="#07203d" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M238 158 a 30 30 0 0 1 52 -12" stroke="#0B4F9E" stroke-width="11" fill="none"/>
+  </g>
+
+  <!-- trajetória da bola -->
+  <path d="M404 118 C 442 104, 476 96, 508 92" fill="none" stroke="#ffffff" stroke-width="5" stroke-dasharray="12 10" stroke-linecap="round" opacity="0.85"/>
+  <path d="M500 80 l 14 12 l -2 -18" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" opacity="0.85"/>
+
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <rect x="24" y="24" width="140" height="46" rx="23" fill="#FFD400"/>
+    <text x="94" y="55" text-anchor="middle" font-size="21" font-weight="700" fill="#062D5C">SAQUE</text>
+  </g>
+</svg>
