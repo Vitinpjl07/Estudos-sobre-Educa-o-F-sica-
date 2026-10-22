@@ -185,6 +185,9 @@ p { margin: 0 0 1rem; }
 .rodape__conteudo p { margin: 0 0 .35rem; }
 .rodape strong { color: var(--amarelo); }
 .rodape__offline { color: var(--amarelo); font-weight: 600; min-height: 1.2em; }
+.rodape__autor { border-top: 1px solid rgba(255, 255, 255, 0.15); margin-top: .75rem; padding-top: .75rem; }
+.rodape__autor-nome { display: block; color: var(--branco); font-weight: 700; letter-spacing: 0.02em; }
+.rodape__autor-turma { display: block; color: #9db8d9; font-size: 0.82rem; margin-top: 0.15rem; }
 
 /* ---------- Toast ---------- */
 .toast {
